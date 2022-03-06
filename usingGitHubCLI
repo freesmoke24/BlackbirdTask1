@@ -1,0 +1,5 @@
+# download github CLI dependencies
+
+gh repo create update_logo --public
+
+# I had no success so I worked on this via GitHub.com
