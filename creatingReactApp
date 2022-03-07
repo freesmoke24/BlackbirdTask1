@@ -5,3 +5,36 @@ npx create-react-app my-app
 
 cd my-app
 npm start
+
+gh repo create update_logo --public
+#not sure how to commit code via github CLI, so was done through github.com
+
+#save propellor logo from link provided as "propellor_logo" in src
+#change href link
+
+#src code
+import logo from './propellor_logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://www.propelleraero.com/dirtmate/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Propellor
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
